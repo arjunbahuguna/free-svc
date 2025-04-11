@@ -15,7 +15,7 @@ transformers==4.28.1
 # pyreaper @ git+https://github.com/r9y9/pyreaper.git@v0.0.9#egg=pyreaper
 huggingface_hub
 nnAudio
-numpy==1.24
+numpy
 gdown
 torchaudio==2.1.2
 torch==2.1.2
