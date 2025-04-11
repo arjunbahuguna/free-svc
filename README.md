@@ -75,7 +75,7 @@ FreeSVC is trained on a diverse set of speech and singing datasets covering mult
 3. **Run the Docker Container:**
     - Start the Docker container and mount the current directory:
       ```bash
-      docker run -it --rm -v "$(pwd)":/workspace freesvc
+       docker run -it --rm -v "$(pwd):/workspace" freesvc
       ```
 
 4. **Prepare the Dataset:**
